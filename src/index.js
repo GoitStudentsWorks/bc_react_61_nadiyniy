@@ -13,7 +13,7 @@ import './index.css';
 import './pages/TransactionsHistory/DatePicker.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/money_makers">
+  <BrowserRouter basename="/bc_react_61_nadiyniy">
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <App />
